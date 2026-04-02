@@ -1,0 +1,15 @@
+Part 3: Training Size = 18 Drop Probability = 0.015625
+Part 4: Training Size = 18 Drop Probability = 0.25
+Part 5: Training Size = 14 L2 = 0.0001
+
+Experiment 2 comparison:
+1.9243861822185733e-06 0.14990495155937633
+
+Experiment 3 comparison:
+0.8424607292065596 0.0030073602930404397
+
+Experiment 4 comparison:
+7.919364974850287e-06 0.22589812747970417
+
+Experiment 5 comparison:
+0.01295087906877125 0.05123142203838521

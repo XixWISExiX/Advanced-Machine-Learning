@@ -1,0 +1,12 @@
+--Ntraining=3
+--patience=20
+--shuffle=200
+--min_delta=0.01
+--no_use_py_func
+--precache=datasets_by_fold_4_objects
+--image_size
+256
+256
+26
+--project
+HW7

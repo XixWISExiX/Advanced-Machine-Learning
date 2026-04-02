@@ -1,0 +1,16 @@
+--conv_size
+6
+--conv_nfilters
+15
+--pool
+4
+--hidden
+300
+--dropout=.5
+--spatial_dropout=.2
+--l2=.0001
+--label=Net_Shallow
+--activation_conv
+relu
+--activation_dense
+relu

@@ -1,0 +1,14 @@
+abs(y - 0) # MAD 0
+
+if lower than above then model good
+
+abs(y - mean)
+
+
+L2 would underfit the outlier cases
+
+==========
+Questions for Professor
+--------
+ 
+

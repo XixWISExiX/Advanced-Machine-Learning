@@ -1,0 +1,132 @@
+====
+Profs Attention model has 167K parameters and is taking ~95s an epoch (full
+dataset)
+====
+
+The classes are not equal in size, this could be resampled in some way.
+
+DONE 1) Load in data correctly (this includes folds and caching)
+
+DONE 2) Create SimpleRNN Model
+
+----Architecture----
+	Embedding layer
+	Conv1D layer w/t striding
+	Loop
+		SimpleRNN layer (return sequences set to True)
+		1D average pooling
+	SimpleRNN layer (return sequences set to False)
+	Loop
+		Dense layer
+	Dense layer (softmax output)
+	
+DONE 3) Create GRU (Gated Recurrent Units) Model
+
+----Architecture----
+	Embedding layer
+	Conv1D layer w/t striding
+	Loop
+		GRU layer (return sequences set to True)
+		1D average pooling
+	GRU layer (return sequences set to False)
+	Loop
+		Dense layer
+	Dense layer (softmax output)
+
+DONE 4) Create Multi-Headed Self Attention Model
+
+----Architecture----
+	Embedding layer
+	PositionalEncoding layer (use the default 'add' combination type)
+	Conv1D layer w/t striding
+	Loop
+		MHA Layers (this has 2 arguments K/V and Q)
+		1D average pooling
+	GlobalMaxPooling1D (reduces set of hyper tokens to one hyper token)
+	Loop
+		Dense layer
+	Dense layer (softmax output)
+		
+* use sparse categorical accuracy for ease of use
+* add model_type_RNN parameter [0,1,2] for the 3 different models
+
+==============================
+
+SimpleRNN
++++++++++++++++++++++++
+30% at 10 epochs
+special: 64, 32, 16
+hidden: 100, 50
+embeddings: 128
+lr: 1e-3
+
+30% at 10 epochs (CURRENT GOAT)
+special: 64, 32, 16
+hidden: 128, 64
+embeddings: 128
+lr: 1e-3
+
+30% at 10 epochs
+special: 64, 32, 16
+hidden: 128, 64, 32
+embeddings: 128
+lr: 1e-3
+
+16% at 10 epochs
+special: 64, 32, 16, 8
+hidden: 100, 50
+embeddings: 128
+lr: 1e-3
+
+17% at 10 epochs
+special: 128, 64, 32
+hidden: 128, 64
+embeddings: 64
+lr: 1e-3
+
+26% at 10 epochs
+special: 64, 48, 32
+hidden: 100, 50
+embeddings: 256
+lr: 1e-3
+
+16% at 10 epochs
+special: 64, 48, 32, 24
+hidden: 100, 50
+embeddings: 256
+lr: 1e-3
++++++++++++++++++++++++
+
+
+==============================
+
+DONE 5) Figures 0a,b,c: Network architecture from plot_model(). Plase include
+tensor shapes. WANDB
+
+DONE 6) Figures 1a,b: Training and valiation set accuracy as a function of epoch
+for each rotation (each figures has fifteen curves). WANDB
+
+
+
+DONE 7) Figure 2: Validation accuracy for the GRU model vs validation accuracy
+for the Attention model. There will be one curve per rotation; each point
+along the curve represents the performace of the two models for a specific
+epoch of training. Because these two models we require different numbers of
+training epochs, pad the shorter of the two with its final value so that both
+vectors are the same length. WANDB
+
+DONE 8) Figure 3: Bar graph showing test accuracy for the three different model
+types (one group of bars for each rotation). Report these accuracies in text
+form, too.
+
+DONE 9) Figure 4: Combining the test data across the five folds, show the
+contingency table (confusion matrix). (need to recompute b/c shuffle)
+Show counts (not percentages)
+
+DONE 10) Reflection
+
+DONE 11) Get one model across all folds to be 0.95 or higher.
+
+
+
+Turn in the new positional_encoder.py in the other folder

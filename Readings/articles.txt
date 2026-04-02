@@ -1,0 +1,14 @@
+Understanding Image Segmentation:
+https://medium.com/data-science/understanding-semantic-segmentation-with-unet-6be4f42d4b47
+
+The Power of Recurrent Neural Networks (RNN):
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/rnn
+
+Types of Recurrent Neural Networks:
+https://www.v7labs.com/blog/recurrent-neural-networks-guide#h2
+
+Transformer: Self Attention:
+https://medium.com/@yacine.benaffane/transformer-self-attention-part-1-2664e10f080f
+
+The Illustrated Transformer:
+https://jalammar.github.io/illustrated-transformer/

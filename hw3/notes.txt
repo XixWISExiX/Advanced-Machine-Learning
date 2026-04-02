@@ -1,0 +1,66 @@
+DEBUG:
+	- history = model.fit
+a100 batch num = 23745161_0
+
+must use --array=0-4
+
+9000 batch size 
+
+
+
+SHALLOW NN
+	- padding 'valid'
+	- conv_size 6
+	- conv_nfilters 15
+	- pool 4
+	- activation functions are ReLu
+	- dense layers 300
+DEEP NN
+	- padding 'same'
+	- conv_size 5 -> 4 -> 3
+	- conv_nfilters 10 -> 30 -> 90
+	- pool 2 -> 2 -> 2
+	- activation functions are ReLu
+	- dense layers 150 -> 100 -> 50
+
+
+TODO
+    - Look at chag gpt
+	- Create Figures 4a & 4b (better labeling)
+    - Look at Figure 1/2 labeling
+	- Remove wandb key
+
+shallow
+0 False: [0.20510036 0.38152054 0.3196732  0.09370588] 0 
+0 True: [0.6885654  0.10756157 0.1145125  0.08936057] 0
+1 False: [0.01555688 0.05630007 0.54483795 0.38330507] 1
+1 True: [0.02789215 0.63260454 0.25210357 0.08739975] 1
+2 False: [0.03784864 0.09755125 0.33024362 0.5343564] 2
+2 True: [0.10772699 0.15420884 0.56596273 0.1721014] 2
+3 False: [0.08978266 0.21287511 0.5653208  0.13202146] 3
+3 True: [0.02207596 0.03119218 0.06411358 0.88261825] 3
+
+deep
+0 False: [0.47172642 0.00135768 0.52003574 0.0068802] 0
+0 True: [0.88999814 0.02826316 0.07411432 0.0076244] 0
+1 False: [0.01983489 0.04231124 0.1683996  0.76945424] 1
+1 True: [0.03388433 0.7249336  0.16949087 0.07169118] 1
+2 False: [1.2690506e-03 1.0832272e-05 0.34119394 0.65752620] 2
+2 True: [0.09123311 0.03265742 0.80929124 0.06681823] 2
+3 False: [0.03118671 0.1124525  0.8204901  0.03587069] 3
+3 True: [0.12563977 0.05487903 0.30673668 0.51274455] 3
+
+
+
+
+
+
+
+
+
+prefetch is 2
+shuffle is 200
+
+
+Has anyone generated Figure 4a,b?
+So previously I had a question about recreating the test set and I wound up using a portion of the generate folds code to generate the test sets. However my issue is that i'm getting the wrong test folds, different than what my model had.  

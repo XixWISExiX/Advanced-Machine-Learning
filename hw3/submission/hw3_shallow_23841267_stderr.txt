@@ -1,0 +1,1143 @@
+2025-03-08 18:22:18.994907: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-08 18:22:18.995038: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-03-08 18:22:18.997238: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-08 18:22:19.003915: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-08 18:22:25.361500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38367 MB memory:  -> device: 0, name: NVIDIA A100-PCIE-40GB, pci bus id: 0000:81:00.0, compute capability: 8.0
+wandb: Currently logged in as: addalooptoit (addalooptoit-me). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/cs504318/.netrc
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.2
+wandb: Run data is saved locally in /home/cs504318/hw3/wandb/run-20250308_182227-9lc6x1jl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Net_Deep_R2
+wandb: ⭐️ View project at https://wandb.ai/addalooptoit-me/HW3
+wandb: 🚀 View run at https://wandb.ai/addalooptoit-me/HW3/runs/9lc6x1jl
+2025-03-08 18:22:31.440749: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2025-03-08 18:22:31.743995: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:465] Loaded cuDNN version 8907
+2025-03-08 18:23:08.456578: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:08.456736: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:08.456753: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:23:08.456773: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+/home/fagg/miniconda3/envs/dnn/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py:151: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self._interrupted_warning()
+2025-03-08 18:23:38.065664: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:38.065913: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:40.135280: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:40.135347: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:42.373163: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:42.373247: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:44.650161: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:44.650340: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:46.913100: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:46.913164: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:49.199518: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:49.199590: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:51.503360: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:51.503629: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:53.991759: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:53.991830: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:53.991866: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:23:53.991893: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:23:56.461314: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:56.461376: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:23:58.983349: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:23:58.983408: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:01.534863: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:01.534925: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:04.104593: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:04.104857: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:06.672193: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:06.672255: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:09.076791: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:09.076895: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:11.488323: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:11.488422: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:13.838338: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:13.838566: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:16.146338: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:16.146434: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:18.379973: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:18.380074: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:20.617157: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:20.617515: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:22.928123: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:22.928296: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:24:22.928316: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:24:25.249181: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:25.249301: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:27.437044: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:27.437161: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:29.760614: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:29.760704: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:32.012450: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:32.012639: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:32.012661: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:24:32.012712: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:24:34.236699: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:34.237093: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:36.509482: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:36.509622: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:38.899446: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:38.899539: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:41.241337: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:41.241436: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:43.597507: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:43.597764: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:24:43.597787: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:24:45.840465: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:45.840586: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:24:45.840708: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:24:48.049149: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:48.049247: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:50.208707: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:50.209141: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:52.510076: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:52.510297: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:54.757211: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:54.757311: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:56.995232: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:56.995332: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:24:59.257356: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:24:59.257477: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:01.540023: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:01.540116: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:03.852255: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:03.852589: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:06.084394: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:06.084517: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:08.299596: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:08.299720: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:10.351389: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:10.351481: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:10.351501: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:10.351535: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:12.378772: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:12.378898: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:12.378922: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:12.378954: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:14.411091: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:14.411559: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:14.411589: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:14.411622: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:16.584300: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:16.584402: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:18.959187: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:18.959277: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:21.143658: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:21.143951: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:23.459670: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:23.459801: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:25:23.459909: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:25.525001: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:25.525087: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:27.634610: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:27.634730: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:27.634806: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:27.634841: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:29.847955: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:29.848086: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:31.944077: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:31.944187: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:34.120583: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:34.120938: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:36.296014: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:36.296130: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:38.536535: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:38.536671: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:40.718392: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:40.718509: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:42.922078: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:25:42.922378: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:42.922486: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:45.059931: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:45.060003: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:47.263758: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:47.263843: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:49.562349: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:49.562838: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:51.909475: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:51.909592: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:54.157538: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:54.157636: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:54.157663: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:54.157693: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:56.518586: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:56.518649: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:25:56.518671: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:25:56.518701: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:25:58.765639: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:25:58.765792: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:25:58.765923: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:26:01.012924: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:01.013043: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:01.013063: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:26:01.013096: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:26:03.334286: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:03.334656: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:05.656476: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:05.656596: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:07.876502: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:07.876662: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:10.096168: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:10.096273: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:12.261543: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:26:12.261633: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:12.261726: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:26:14.411668: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:14.412030: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:16.599138: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:16.599290: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:18.815935: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:18.816057: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:21.039708: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:21.040044: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:23.258928: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:23.259042: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:25.614387: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:25.614506: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:27.919774: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:27.919869: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:30.192983: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:30.193150: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:32.473330: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:32.473476: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:34.762370: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:34.762643: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:37.049945: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:37.050094: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:39.275504: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:26:39.275622: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:39.275751: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:26:41.498998: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:41.499149: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:43.803187: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:43.803581: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:46.092885: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:46.092986: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:48.336081: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:48.336183: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:50.466053: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:50.466358: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:52.779335: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:52.779474: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:55.032936: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:55.033059: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:57.193777: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:57.193886: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:59.354124: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:26:59.354228: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:26:59.354245: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:26:59.354288: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:27:01.739432: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:01.739717: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:04.066448: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:04.066738: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:06.261737: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:06.261844: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:27:06.261920: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:27:08.351328: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:08.351418: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:10.574302: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:10.574408: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:12.915199: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:12.915549: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:15.295482: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:15.295575: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:27:15.295669: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:27:17.558149: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:17.558361: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:19.807286: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:19.807589: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:22.028105: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:22.028195: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:24.099768: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:24.099879: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:26.252139: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:26.252235: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:28.382675: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:28.382897: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:30.545052: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:30.545153: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:32.818025: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:32.818383: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:35.034519: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:35.034652: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:37.251527: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:37.251642: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:39.364942: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:39.365041: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:41.635846: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:41.635963: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:43.817705: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:43.818033: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:45.978140: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:27:45.978208: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:45.978331: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:27:48.068132: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:48.068266: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:50.199668: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:50.200047: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:52.442097: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:52.442199: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:54.642378: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:54.642468: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:56.768468: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:56.768590: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:27:58.875377: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:27:58.875497: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:01.083018: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:01.083213: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:03.239586: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:03.239859: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:05.477676: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:05.477814: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:07.648710: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:07.648815: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:09.903998: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:09.904106: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:12.162467: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:12.162529: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:12.162545: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:28:12.162557: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:28:14.350587: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:14.350795: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:16.530391: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:16.530448: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:18.747613: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:18.747697: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:20.931474: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:20.931616: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:23.070317: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:23.070473: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:25.218435: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:25.218521: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:27.387810: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:27.387876: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:29.540575: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:29.540638: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:31.639628: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:31.639704: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:33.816636: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:33.816942: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:35.976648: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:35.976707: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:38.116860: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:38.116968: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:40.234492: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:40.234577: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:42.271358: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:42.271458: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:44.417928: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:44.418169: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:46.629298: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:46.629371: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:46.629387: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:28:46.629405: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:28:48.770836: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:48.770926: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:50.867801: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:50.868049: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:53.020163: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:53.020329: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:55.141794: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:55.141908: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:57.307757: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:57.307873: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:28:59.467709: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:28:59.467774: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:01.703573: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:01.703653: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:03.864882: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:03.865130: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:05.999792: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:05.999901: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:08.163532: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:08.163603: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:29:08.163724: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:29:10.325643: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:10.325759: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:29:10.325915: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:29:12.458910: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:12.459021: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:12.459041: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:29:12.459069: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:29:14.666404: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:14.666698: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:16.805842: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:16.805930: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:18.930119: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:18.930227: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:21.089618: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:21.089891: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:23.140223: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:23.140322: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:25.359451: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:25.359542: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:27.527450: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:27.527543: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:29.751179: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:29.751276: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:31.964665: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:31.964811: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:34.147481: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:34.147853: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:36.369835: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:36.369935: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:38.540720: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:38.540820: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:40.726280: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:40.726374: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:43.242970: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:43.243305: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:45.343763: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:45.343877: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:47.528398: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:47.528490: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:49.778489: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:49.778813: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:49.778837: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:29:49.778867: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:29:51.914311: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:51.914386: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:54.172845: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:54.172985: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:56.303723: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:56.303840: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:29:56.303893: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:29:56.303922: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:29:58.475944: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:29:58.476085: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:00.648998: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:00.649105: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:02.837547: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:02.837853: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:05.060077: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:05.060554: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:07.271242: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:07.271389: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:09.443520: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:09.443652: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:11.590477: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:11.590700: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:13.731757: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:13.732099: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:15.838672: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:15.838738: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:17.945672: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:17.945753: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:20.034245: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:20.034528: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:22.098772: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:22.098949: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:24.284306: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:24.284373: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:26.381263: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:26.381368: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:28.496247: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:28.496362: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:30.626249: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:30.626357: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:32.818374: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:32.818707: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:30:32.818822: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:30:34.987291: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:34.987408: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:37.099699: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:37.099806: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:39.172400: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:39.172545: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:41.200769: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:41.200871: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:43.221727: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:30:43.221819: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:43.221935: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:30:45.278405: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:45.278770: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:45.278801: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:30:45.278831: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:30:47.310918: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:47.311001: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:49.448868: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:49.448957: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:51.624487: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:51.624789: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:53.741778: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:53.741905: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:55.902477: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:55.902629: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:30:57.984719: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:30:57.984852: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:00.173067: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:00.173240: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:02.334095: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:02.334180: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:04.492164: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:04.492391: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:06.618481: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:06.618580: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+2025-03-08 18:31:06.618668: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+2025-03-08 18:31:08.735193: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:08.735304: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:15.534852: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-03-08 18:31:36.210284: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-03-08 18:31:39.029954: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2025-03-08 18:31:39.030131: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+2025-03-08 18:31:39.030177: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 13994168067117114111
+2025-03-08 18:31:39.030219: I tensorflow/core/framework/local_rendezvous.cc:422] Local rendezvous recv item cancelled. Key hash: 12215834738929004256
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                             epoch/epoch ▁▁▂▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇██
+wandb:                     epoch/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                              epoch/loss █▆▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       epoch/sparse_categorical_accuracy ▁▁▂▃▃▅▆▆▇▇▇▇▇▇▇▇▇▇██████████████████████
+wandb:                          epoch/val_loss ▁▂▃▃▃▅▅▅▅▅▆▆▅▆▆▆▆▆▇▇▇▇▇▇▇▇█▇██▇█████████
+wandb:   epoch/val_sparse_categorical_accuracy ▆██▇▁▁▁▂▂▃▅▅▆▅▅▆▆▇▇▇▇▇▇██▇███▇██▇██▇██▇█
+wandb:                         final_test_loss ▁
+wandb:  final_test_sparse_categorical_accuracy ▁
+wandb:                        final_train_loss ▁
+wandb: final_train_sparse_categorical_accuracy ▁
+wandb:                          final_val_loss ▁
+wandb:   final_val_sparse_categorical_accuracy ▁
+wandb: 
+wandb: Run summary:
+wandb:                             epoch/epoch 205
+wandb:                     epoch/learning_rate 0.001
+wandb:                              epoch/loss 0.23483
+wandb:       epoch/sparse_categorical_accuracy 0.93217
+wandb:                          epoch/val_loss 6.9026
+wandb:   epoch/val_sparse_categorical_accuracy 0.30994
+wandb:                         final_test_loss 1.40905
+wandb:  final_test_sparse_categorical_accuracy 0.25427
+wandb:                        final_train_loss 1.38449
+wandb: final_train_sparse_categorical_accuracy 0.34351
+wandb:                          final_val_loss 1.40707
+wandb:   final_val_sparse_categorical_accuracy 0.31085
+wandb:                                hostname c822.oscer.ou.edu
+wandb: 
+wandb: 🚀 View run Net_Deep_R2 at: https://wandb.ai/addalooptoit-me/HW3/runs/9lc6x1jl
+wandb: ⭐️ View project at: https://wandb.ai/addalooptoit-me/HW3
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250308_182227-9lc6x1jl/logs

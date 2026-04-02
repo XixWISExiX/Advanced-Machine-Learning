@@ -1,0 +1,75 @@
+2025-02-09 11:23:20.940368: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-02-09 11:23:20.942500: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-02-09 11:23:21.262349: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-09 11:23:21.392457: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+wandb: Currently logged in as: addalooptoit (addalooptoit-me). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/cs504318/.netrc
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.2
+wandb: Run data is saved locally in /home/cs504318/hw1/wandb/run-20250209_112528-sz44c4x2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run bmi_exp_batch_1_dtheta_0_NT11_IN_006_R15
+wandb: ⭐️ View project at https://wandb.ai/addalooptoit-me/HW1
+wandb: 🚀 View run at https://wandb.ai/addalooptoit-me/HW1/runs/sz44c4x2
+/home/fagg/miniconda3/envs/dnn/lib/python3.12/site-packages/keras/src/ops/nn.py:907: UserWarning: You are using a softmax over axis -1 of a tensor of shape (None, 1). This axis has size 1. The softmax operation will always return the value 1, which is likely not what you intended. Did you mean to use a sigmoid instead?
+  warnings.warn(
+/home/fagg/miniconda3/envs/dnn/lib/python3.12/site-packages/keras/src/ops/nn.py:907: UserWarning: You are using a softmax over axis -1 of a tensor of shape (32, 1). This axis has size 1. The softmax operation will always return the value 1, which is likely not what you intended. Did you mean to use a sigmoid instead?
+  warnings.warn(
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                       epoch/epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇███
+wandb:                 epoch/fvaf_single ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:               epoch/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                        epoch/loss ▄▅▅▇▅▆▂▇▃▅▅▇▅█▅▅▅▇▅▅▃▅▄▄▇▄▅▄▆▅▆▄▁▄▅▄▂▁▄▄
+wandb:     epoch/root_mean_squared_error ▅▆▁▆▂▅▃▄▅▆▆▅█▃▃▅▇▅▄▇▅▅▃▆▄▆▅▅▅▅▁▅▄▂▄▅▄▃▅▅
+wandb:             epoch/val_fvaf_single ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    epoch/val_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/val_root_mean_squared_error ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                      fvaf_testing ▁
+wandb:                     fvaf_training ▁
+wandb:                   fvaf_validation ▁
+wandb:                      loss_testing ▁
+wandb:                     loss_training ▁
+wandb:                   loss_validation ▁
+wandb:                      outs_testing ▇▇▃█▄▃▄▂▅▇▄▁▇█▂▄▃▄▄▆▅▄▄▂▅▄▇▇▂▄▆█▄▃▄▄▄▄█▅
+wandb:                   predict_testing ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                      rmse_testing ▁
+wandb:                     rmse_training ▁
+wandb:                   rmse_validation ▁
+wandb:                         test_size ▁
+wandb:                      time_testing ▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▆▆▆▆▆▆▆▆▆▇▇████
+wandb:                     training_size ▁
+wandb:                   validation_size ▁
+wandb: 
+wandb: Run summary:
+wandb:                       epoch/epoch 100
+wandb:                 epoch/fvaf_single -0.82019
+wandb:               epoch/learning_rate 0.001
+wandb:                        epoch/loss 2.14346
+wandb:     epoch/root_mean_squared_error 1.46406
+wandb:             epoch/val_fvaf_single -1.10528
+wandb:                    epoch/val_loss 1.89644
+wandb: epoch/val_root_mean_squared_error 1.37711
+wandb:                      fvaf_testing -0.89901
+wandb:                     fvaf_training -0.82019
+wandb:                   fvaf_validation -1.10528
+wandb:                          hostname c598.oscer.ou.edu
+wandb:                      loss_testing 2.15997
+wandb:                     loss_training 2.14346
+wandb:                   loss_validation 1.89644
+wandb:                      outs_testing -1.58518
+wandb:                   predict_testing 1
+wandb:                      rmse_testing 1.46968
+wandb:                     rmse_training 1.46406
+wandb:                   rmse_validation 1.37711
+wandb:                         test_size 1570
+wandb:                      time_testing 2231.3035
+wandb:                     training_size 14823
+wandb:                   validation_size 1238
+wandb: 
+wandb: 🚀 View run bmi_exp_batch_1_dtheta_0_NT11_IN_006_R15 at: https://wandb.ai/addalooptoit-me/HW1/runs/sz44c4x2
+wandb: ⭐️ View project at: https://wandb.ai/addalooptoit-me/HW1
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250209_112528-sz44c4x2/logs

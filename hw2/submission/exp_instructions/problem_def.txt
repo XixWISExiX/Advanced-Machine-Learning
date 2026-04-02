@@ -1,0 +1,8 @@
+--dataset
+/home/fagg/datasets/bmi/bmi_dataset.pkl
+--output_type
+theta
+--predict_dim
+1
+--Nfolds
+20

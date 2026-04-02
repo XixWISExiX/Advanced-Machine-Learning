@@ -1,0 +1,10 @@
+--Ntraining=3
+--patience=30
+--shuffle=200
+--no_use_py_func
+--batch_normalization
+--layer_normalization
+--repeat
+--steps_per_epoch=96
+--project
+HW6

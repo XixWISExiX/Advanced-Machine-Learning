@@ -1,0 +1,8 @@
+--Ntraining=3
+--patience=200
+--shuffle=0
+--min_delta=0.000001
+--no_use_py_func
+--batch_normalization
+--project
+HW5

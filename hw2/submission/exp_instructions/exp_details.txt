@@ -1,0 +1,6 @@
+--rotation
+10
+--epochs
+1000
+--Ntraining
+2

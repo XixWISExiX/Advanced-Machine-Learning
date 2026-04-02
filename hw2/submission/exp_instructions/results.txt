@@ -1,0 +1,4 @@
+--results_path=./part5_results
+--save
+--render
+--nowandb

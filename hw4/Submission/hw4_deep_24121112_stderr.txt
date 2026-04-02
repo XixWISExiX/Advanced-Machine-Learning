@@ -1,0 +1,21 @@
+2025-03-28 21:36:06.554365: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-28 21:36:06.605890: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-28 21:36:06.605940: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-03-28 21:36:06.608612: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-28 21:36:06.614336: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-28 21:36:24.502793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 43519 MB memory:  -> device: 0, name: NVIDIA L40S, pci bus id: 0000:65:00.0, compute capability: 8.9
+wandb: Currently logged in as: addalooptoit (addalooptoit-me). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/cs504318/.netrc
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.2
+wandb: Run data is saved locally in /scratch/cs504318/hw4/wandb/run-20250328_213634-lz2msjt7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Net_Deep_6_R0
+wandb: ⭐️ View project at https://wandb.ai/addalooptoit-me/HW4
+wandb: 🚀 View run at https://wandb.ai/addalooptoit-me/HW4/runs/lz2msjt7
+/home/fagg/miniconda3/envs/dnn/lib/python3.12/site-packages/PIL/Image.py:3402: DecompressionBombWarning: Image size (138932080 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+2025-03-28 21:36:55.575614: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2025-03-28 21:36:57.747374: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:465] Loaded cuDNN version 8907
+slurmstepd: error: *** JOB 24121112 ON c1007 CANCELLED AT 2025-03-28T21:37:08 DUE TO TIME LIMIT ***

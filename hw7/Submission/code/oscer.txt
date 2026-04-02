@@ -1,0 +1,6 @@
+--gpu
+--batch=32
+--prefetch=4
+--num_parallel_calls=32
+--steps_per_epoch=64
+--repeat

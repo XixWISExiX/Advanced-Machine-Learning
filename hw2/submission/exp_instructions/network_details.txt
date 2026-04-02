@@ -1,0 +1,15 @@
+--patience
+0
+--lrate
+0.001
+--activation_out
+linear
+--activation_hidden
+leaky_relu
+--hidden
+200
+100
+50
+25
+12
+6

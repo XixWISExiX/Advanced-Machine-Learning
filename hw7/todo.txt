@@ -1,0 +1,80 @@
+RANDOM NOTES
+----
+* gamma should be high (between 0 and 1)
+* MAE is probably a better loss function
+--sine_params
+
+
+
+
+
+---
+Prof Questions
+----
+None
+(downloads might need to be changed by cleaning browser cache)
+
+----
+Prof Models
+
+Model has 15 million parameters
+Batch size 32
+Steps per epoch 32
+Implement some gradient cliping
+"embedding size of 30 right now" for the positional encoder 
+"yet to get GPU working"
+20 time steps is too small (50 to 1000) (keep in mind that you need to adjust the beta sequence when you change the number of steps)
+max beta of 0.2 is working well
+batch normalization is critical
+Using lrate of 10^-4
+
+(beta scales with number of steps, example: 1000 steps -> 10^-4 beta)
+
+
+----
+NOTED POINTS
+
+- Generator
+	inputs:
+		noised image
+		time stamp
+		semantic label image
+	output:
+		guess at the noise that must be removed from the input noised image in order to make it less noisy.
+
+	* Channel values should range from +/-1
+
+- Model 
+    * Make sure that UNET has 3 inputs
+    * your predicting noise
+    * MSE or MAE can be used as the loss function.
+    * Translate the Positional encoding to the semantic labels (and copy the embedding vector to each pixel) | (examples, embedding_size) -> (examples, R, C, embedding_size)
+    * Prof appended input_image, semantic label image, & time encoded "image" together as input into the UNET. 
+    * For "up" part of UNET (decoder), implement semantic labels and time encodings at each step. Scale them down to the right using AveragePooling2D.
+
+
+
+Use Inference Process code to relod model for plots
+
+
+
+=======
+TODO
+
+DONE 1) Import all important files to super computer (includes HW4 code bits)
+DONE 2) Make the Diffusion UNET work (see Model in NOTED POINTS)
+
+DONE 3) Generate figure 0 (plot_model())
+DONE 4) Generate figures 1a, 1b (training & validation MSE as a function of epochs)
+
+5) Generate figure 2 (show 2-3 examples of the model producing a new image from noise, also show each timestep or every other timestep)
+
+	* Channel values should range from +/-1 (probably not implemented)
+
+6) Generate figure 3 (show a gallary of final images)
+
+7) Make a convincing model
+8) BONUS Generate convincing roads and rivers "well defined"
+9) Write Report
+
+

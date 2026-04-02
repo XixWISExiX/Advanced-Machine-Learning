@@ -1,0 +1,51 @@
+OU SLURM Partitions Link: https://www.ou.edu/oscer/support/partitions
+
+
+p_value | mean_diff
+
+Experiment 2 comparison:
+1.9243861822185733e-06 | 0.14990495155937633
+
+Experiment 3 comparison:
+0.8424607292065596 | 0.0030073602930404397
+
+Experiment 4 comparison:
+7.919364974850287e-06 | 0.22589812747970417
+
+Experiment 5 comparison:
+0.01295087906877125 | 0.05123142203838521
+
+
+
+
+Exp 3 Best: 18 0.015625
+Exp 4 Best: 18 0.25
+Exp 5 Best: 14 0.0001
+
+
+
+ls -l *aggregate.pkl | wc -l
+
+
+
+Part 1:
+    results/part_1_bmi_aggregate.pkl
+
+Part 2:
+	resuls/exp_raw_bmi_aggregate.pkl
+
+Part 3:
+	Part3_4_results/part_3_bmi_aggregate.pkl
+
+Part 4:
+	Part3_4_results/part_4_bmi_aggregate.pkl
+
+Part 5:
+	part5_results/part_5_bmi_aggregate.pkl
+
+
+Progress:
+	On Part 6 - Get p-values and the differences in means
+
+TODO:
+	- configure code to optionally turn of Early Stopping (default is 100)

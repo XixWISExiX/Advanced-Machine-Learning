@@ -1,0 +1,39 @@
+2025-02-02 09:35:38.001617: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-02-02 09:35:38.018098: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-02-02 09:35:38.167340: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-02 09:35:38.235430: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+wandb: Currently logged in as: addalooptoit (addalooptoit-me). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/cs504318/.netrc
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.2
+wandb: Run data is saved locally in /home/cs504318/xor/wandb/run-20250202_093547-3mf5i8hy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run hw0_relu_1024_E8
+wandb: ⭐️ View project at https://wandb.ai/addalooptoit-me/HW0
+wandb: 🚀 View run at https://wandb.ai/addalooptoit-me/HW0/runs/3mf5i8hy
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch/epoch ▁▁▁▁▂▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇█
+wandb: epoch/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:          epoch/loss █▆▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:           max_error ▁
+wandb:           mse_train ▁
+wandb:      num_big_errors ▁
+wandb:           sum_error ▁
+wandb: 
+wandb: Run summary:
+wandb:         epoch/epoch 1302
+wandb: epoch/learning_rate 0.001
+wandb:          epoch/loss 0.0
+wandb:            hostname c555.oscer.ou.edu
+wandb:           max_error 0.02356
+wandb:           mse_train 5e-05
+wandb:      num_big_errors 0
+wandb:           sum_error 5.42661
+wandb: 
+wandb: 🚀 View run hw0_relu_1024_E8 at: https://wandb.ai/addalooptoit-me/HW0/runs/3mf5i8hy
+wandb: ⭐️ View project at: https://wandb.ai/addalooptoit-me/HW0
+wandb: Synced 5 W&B file(s), 2 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250202_093547-3mf5i8hy/logs

@@ -1,0 +1,12 @@
+--hidden
+64
+32
+16
+8
+--dropout=.1
+--lrate=0.000001
+--label=PNN-TEST-3
+--activation_dense
+relu
+--activation_out
+linear
